@@ -1,0 +1,24 @@
+pipeline{
+    agent any // node or slave this should run on
+    stages{ 
+        // Set of steps
+        stage("Clean up"){ // name of step
+            steps{
+                // Step 1
+                deleteDir()
+            }
+        }
+        stage("Clone repo"){ // Cloning git repo 
+            steps{
+                sh "git clone https://github.com/Mohitduklan/Jenkins.git"
+            }
+        }
+        stage("runing python"){
+            steps{
+                dir("Jenkins"){ // changing directory
+                    sh "python3 hello_world.py"
+                }
+            }
+        }        
+    }
+}
