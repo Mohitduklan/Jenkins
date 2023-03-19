@@ -1,13 +1,13 @@
 What I did
-- This module will run by creating a flask python file.
+- This module will run by creating a hello world python file.
 - Commited it on github.
 - Created a pipeline in jenkins.
 - Put github url in version control tool in jenkins.
 - Put Jenkinsfile path of git in jenkins.
 - Jenkins files is present in github.
 - Jenkins pulled repo automatcally.
-- Jenkins host flask application from script available in github.
+- Jenkins will print in logs.
 - Scan for change in git every 2 min->  schedule value is 2 * * * * OR H/2 * * * * it will pick random time between 2 min.
 - Build when chamge in git.
-
+- Change version no in python file, check if build start automatically.
 What is don not do
