@@ -17,6 +17,6 @@ pipeline{
                     sh "/home/mohit/Python/base/bin/python3 hello_world_web.py"
                 }
             }
-        }        
+        }
     }
 }
