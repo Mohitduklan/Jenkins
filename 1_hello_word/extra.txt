@@ -1,0 +1,7 @@
+What I did
+- This module will run by creating a hello world python file
+- Commited it on github
+- Created a pipeline in jenkins
+
+What I didn't do
+- Put github url in version control tool in jenkins to pull automatically.
