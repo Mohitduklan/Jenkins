@@ -1,0 +1,9 @@
+What I did
+- This module will run by creating a flask python file
+- Commited it on github
+- Created a pipeline in jenkins
+- Put github url in version control tool in jenkins.
+- Put Jenkinsfile path of git in jenkins.
+- Jenkins files is present in github.
+- Jenkins pulled repo automatcally.
+- Jenkins host flask application from script available in github

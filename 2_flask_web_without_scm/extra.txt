@@ -1,5 +1,5 @@
 What I did
-- This module will run by creating a hello world python file
+- This module will run by creating a flask python file
 - Commited it on github
 - Created a pipeline in jenkins
 - Jenkins script is copy pasted in jenkins GUI.

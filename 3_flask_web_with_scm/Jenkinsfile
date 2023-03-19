@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    stages{ 
+    stages{
         stage("runing python"){
             steps{
                 dir("3_flask_web"){
