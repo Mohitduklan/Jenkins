@@ -15,7 +15,7 @@ pipeline{
         }
         stage("runing python"){
             steps{
-                dir("Jenkins"){ // changing directory
+                dir("Jenkins/hello_word"){ // changing directory
                     sh "python3 hello_world.py"
                 }
             }
