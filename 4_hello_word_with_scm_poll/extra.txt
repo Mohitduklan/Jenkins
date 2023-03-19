@@ -7,7 +7,7 @@ What I did
 - Jenkins files is present in github.
 - Jenkins pulled repo automatcally.
 - Jenkins host flask application from script available in github.
+- Scan for change in git every 2 min->  schedule value is 2 * * * * OR H/2 * * * * it will pick random time between 2 min.
+- Build when chamge in git.
 
 What is don not do
-- Scan for change in git.
-- Predocially pull and build.
