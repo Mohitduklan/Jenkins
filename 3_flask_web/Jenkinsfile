@@ -8,7 +8,7 @@ pipeline{
         }
         stage("runing python"){
             steps{
-                dir("Jenkins/flask_web"){
+                dir("Jenkins/3_flask_web"){
                     sh "/usr/bin/python3 hello_world_web.py"
                 }
             }
