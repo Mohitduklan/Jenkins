@@ -15,7 +15,7 @@ pipeline{
             steps{
                 dir("Jenkins/flask_web"){ // changing directory
                     sh "which python3"
-                    sh "python3 hello_world_web.py"
+                    sh "/usr/bin/python3 hello_world_web.py"
                 }
             }
         }
