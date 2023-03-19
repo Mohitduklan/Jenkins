@@ -13,7 +13,7 @@ pipeline{
         }
         stage("runing python"){
             steps{
-                dir("Jenkins/flask_web"){ // changing directory
+                dir("Jenkins/flask_web"){
                     sh "which python3"
                     sh "/usr/bin/python3 hello_world_web.py"
                 }
