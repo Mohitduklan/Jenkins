@@ -3,8 +3,8 @@ pipeline{
     stages{
         stage("runing python"){
             steps{
-                dir("3_flask_web"){
-                    sh "/usr/bin/python3 hello_world_web.py"
+                dir("4_hello_word_with_scm_poll"){
+                    sh "/usr/bin/python3 hello_world.py"
                 }
             }
         }
